@@ -1,0 +1,32 @@
+{
+  "name": "Tracker Test",
+  "description": "Keep your cursor on the ball for as long as you can",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "icons": {
+      "16": "ball.jpg",
+      "32": "ball.jpg",
+      "48": "ball.jpg",
+      "128": "ball.jpg"
+  },
+  
+  "action": {
+      "default_popup": "aimlabtracker.html",
+      "default_icon": {
+          "16": "ball.jpg",
+          "32": "ball.jpg",
+          "48": "ball.jpg",
+          "128": "ball.jpg"
+      }
+  },
+ 
+  "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "tabs"
+  ],
+  "host_permissions": [
+      "https://www.google.com/*"
+  ]
+}

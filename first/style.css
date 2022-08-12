@@ -1,0 +1,26 @@
+body{
+   
+        width: 400px;
+        height: 300px;
+        padding:10px;
+        box-sizing:border-box;
+        resize:none;
+        background-color: brown;
+        border-radius: 10px;
+        box-shadow: 5px 10px;
+        font-family:sans-serif;
+        font-weight: bold;
+    
+      
+        
+    
+}
+h1{
+    text-align: center;
+    margin: auto 10px;
+    font-size:32px;
+    font-family:sans-serif;
+    padding: 10px;
+    font-weight:bold;
+    color: white;
+}
